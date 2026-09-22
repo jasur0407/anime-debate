@@ -53,3 +53,12 @@ img{display:block;width:100%}
 @media(max-width:1100px){.event-image,.event-feature .event-image{height:270px}.event-body,.event-feature .event-body{min-height:320px}.event-footnote{display:block}}
 @media(max-width:800px){.event-feature{grid-column:auto;display:flex}.event-feature .event-image{height:270px;min-height:0}.event-feature .event-body{min-height:320px}}
 @media(max-width:600px){.event-image,.event-feature .event-image{height:270px}.event-body,.event-feature .event-body{min-height:300px}}
+
+/* The current program has two formats, each with equal space. */
+.event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.footer-top{gap:4vw}
+.footer-brand{font-size:clamp(45px,6.2vw,88px);letter-spacing:-.09em;white-space:nowrap}
+.footer-channel{display:inline-block;margin-top:18px;color:var(--orange);border-bottom:1px solid currentColor;padding-bottom:4px;font-weight:700;font-size:12px}
+.faq details p a{color:#a74431;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:800px){.footer-brand{font-size:clamp(40px,8vw,65px)}}
+@media(max-width:600px){.event-grid{grid-template-columns:1fr}.footer-brand{font-size:clamp(38px,10vw,54px);white-space:normal}.brand-copy span{font-size:7px;letter-spacing:.12em}}
