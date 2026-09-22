@@ -52,4 +52,4 @@ img{display:block;width:100%}
 .event-body,.event-feature .event-body{flex:1;min-height:345px}
 @media(max-width:1100px){.event-image,.event-feature .event-image{height:270px}.event-body,.event-feature .event-body{min-height:320px}.event-footnote{display:block}}
 @media(max-width:800px){.event-feature{grid-column:auto;display:flex}.event-feature .event-image{height:270px;min-height:0}.event-feature .event-body{min-height:320px}}
-@media(max-width:600px){.event-image,.event-feature .event-image{height:270px}.event-body,.event-feature .event-body{min-height:280px}}
+@media(max-width:600px){.event-image,.event-feature .event-image{height:270px}.event-body,.event-feature .event-body{min-height:300px}}
